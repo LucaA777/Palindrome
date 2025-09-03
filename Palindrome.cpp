@@ -48,11 +48,7 @@ int main() {
     strRev[i] = str[strLen - i - 1];
   }
   strRev[strLen] = '\0'; //adds cstring terminator
-
-
-  //shows both strings
-  cout << str << endl;
-  cout << strRev << endl;
+  
 
   //checks if the string is a palindrome
   if (strcmp(str, strRev) == 0) {
